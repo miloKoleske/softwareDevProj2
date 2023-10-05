@@ -1,0 +1,153 @@
+html,
+body {
+  margin: 0;
+  font-family: sans-serif;  
+  overflow-x: hidden;
+  display: flex;
+  background-color: #5C4B38;
+}
+
+section {
+  min-width: 50vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4ch;
+  }
+
+  /* Give this a class */
+section .nav {
+  width: 8%;
+  position: fixed;
+  height: 100%;
+  overflow: none;
+  background-color: #5C4B38;
+  justify-content: left;
+  padding-left: 10px;
+  left: 0px;
+}
+
+section .nav img {
+  height: 100px;
+  width: 100px;
+  margin-left: 10px;
+  margin-top: 20px;
+  z-index: 2;
+}
+
+.bioName {
+  display: block;
+  font-size: small;
+  color: #FAE0C6;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+  transform: translate(0px, 250px);
+}
+
+section .nav a {
+  margin-left: 10px;
+  display: block;
+  font-family: 'Roboto Mono', monospace;
+  font-size: medium;
+  color: #FAE0C6;
+  text-decoration: none;
+  background-color: #5C4B38;
+  justify-content: left;
+  border-radius: 10px;
+  line-height: 200%;
+  font-weight: 100;
+}
+
+section .nav a:hover {
+  font-weight: 400;
+  transform: translateX(25px);
+  transition: transform 100ms;
+}
+
+h1 {
+  font-size: 160px;
+  flex-wrap: wrap;
+  color: antiquewhite;
+  font-family: 'DM Serif Display', serif;
+  padding: 10px;
+  width: 50vw;
+  line-height: 110px;
+  margin: 0;
+  }
+
+section {
+  min-width: 50vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4ch;
+}
+
+h3 {
+  width: 10vw;
+  margin: 75px;
+  font-family: 'DM Serif Display', serif;
+  font-size: 50px;
+  color: #FAE0C6;
+}
+
+p {
+  font-family: 'Roboto Mono', monospace;
+background-color: #FAE0C6;
+padding: 120px 40px 120px 40px;
+font-size: 35px;
+color: rgb(199, 101, 21);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.read-article{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 999;
+  color: #000;
+  background: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: arial;
+  text-decoration: none;
+  box-shadow: rgb(50 50 93 / 25%) 0 0 100px -20px, rgb(0 0 0 / 30%) 0 0 60px -15px;
+}
+.read-article:hover{
+    background: #d5d5d5;
+    box-shadow: rgb(50 50 93 / 25%) 0 0 100px -20px, rgb(0 0 0 / 30%) 0 0 60px 0px;
+}
+iframe[sandbox] .read-article{
+  display: none;
+}
